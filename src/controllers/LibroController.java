@@ -18,8 +18,8 @@ public class LibroController {
     }
     public void imprimirLibros(Map<Book,Book> libros) {
         for (Map.Entry<Book,Book> libro : libros.entrySet()) {
-            System.out.print(libro.getKey());
-            System.out.println(" → "+libro.getValue());
+            System.out.print(libro.getKey().toString());
+            System.out.println(" → "+libro.getValue().toString());
         }
     }
 }

@@ -36,4 +36,13 @@ public class Book implements Comparable<Book> {
         }
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "titulo='" + titulo + '\'' +
+                ", autor='" + autor + '\'' +
+                ", anio=" + anio +
+                '}';
+    }
 }
